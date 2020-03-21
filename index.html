@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title> 
+</head>
+<body>
+    <h1>Generate a standard, boring name for your equivalent child below.</h1>
+    <button id="gen-name" class="button">Try Me!</button>
+    <form>
+        <label class="container" for="is-male-radio">Male
+            <input type="radio" name="gender-type" id="is-male-radio" value='male' checked/>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container" for="is-female-radio">Female
+            <input type="radio" name="gender-type" id="is-female-radio" value='female'/>
+            <span class="checkmark"></span>
+        </label>
+    </form>
+    <div id="curr-name"></div>
+    <script src="script.js"></script>
+    <script src="male-names.js"></script>
+    <script src="female-names.js"></script>
+</body>
+</html>
